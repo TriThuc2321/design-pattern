@@ -3,12 +3,11 @@ public class AbstractFactory {
     public interface Button {
         void paint();
     }
-    // đemo git
 
     public static class MacOSButton implements Button {
         @Override
         public void paint() {
-            System.out.println("MacOS button");
+            System.out.println("MacO);
         }
     }
 
