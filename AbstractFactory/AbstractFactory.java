@@ -8,7 +8,7 @@ public class AbstractFactory {
     public static class MacOSButton implements Button {
         @Override
         public void paint() {
-            System.out.println("MacOS button");
+            // demo
         }
     }
 
