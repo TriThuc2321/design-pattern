@@ -3,7 +3,6 @@ public class AbstractFactory {
     public interface Button {
         void paint();
     }
-    // đemo git
 
     public static class MacOSButton implements Button {
         @Override
